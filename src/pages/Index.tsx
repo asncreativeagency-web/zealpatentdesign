@@ -4,16 +4,18 @@ import AboutSection from "@/components/AboutSection";
 import ServicesSection from "@/components/ServicesSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import ChatWidget from "@/components/ChatWidget";
 
 const Index = () => {
   return (
-    <div className="min-h-screen cursor-pointer">
+    <div className="min-h-screen cursor-pointer overflow-x-hidden">
       <Navbar />
       <HeroSection />
       <AboutSection />
       <ServicesSection />
       <ContactSection />
       <Footer />
+      <ChatWidget />
     </div>
   );
 };
